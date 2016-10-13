@@ -1,0 +1,24 @@
+{
+  "name": "mobile_app",
+  "authors": [
+    "tobyaries@163.com <tobyaries@163.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zepto": "^1.1.6",
+    "requirejs": "^2.3.2",
+    "text": "^2.0.15",
+    "director": "^1.2.8",
+    "underscore": "^1.8.3"
+  }
+}
