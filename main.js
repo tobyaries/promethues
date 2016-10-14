@@ -9,7 +9,7 @@
         paths: {                    
             director: 'bower_components/director/build/director',
             zepto: 'bower_components/zepto/zepto',
-            underscore: 'bower_components/underscore/underscore',
+            underscore: '../bower_components/underscore/underscore',
             text: 'bower_components/text/text'
         },
         shim: {
@@ -27,7 +27,7 @@
 
     require.config(config);
 
-    require(['zepto', 'router', 'underscore'], function($, router, _){
+    require(['zepto', 'router', 'underscore'], function($, router,  _){
         win.appView = $('#container');
         win.$ = $;
         win._ = _;
